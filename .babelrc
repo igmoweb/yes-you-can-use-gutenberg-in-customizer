@@ -1,0 +1,7 @@
+{
+	"presets": [ "@wordpress/default" ],
+	"plugins": [
+		"@wordpress/babel-plugin-import-jsx-pragma",
+		"@babel/plugin-proposal-class-properties"
+	]
+}

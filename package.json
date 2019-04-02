@@ -1,0 +1,36 @@
+{
+  "name": "gutenberg-customizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "cross-env webpack --watch",
+    "build": "cross-env NODE_ENV=production webpack -p"
+  },
+  "keywords": [],
+  "author": "Ignacio Cruz <igmoweb@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@wordpress/babel-plugin-import-jsx-pragma": "^2.1.0",
+    "@wordpress/babel-preset-default": "^4.1.0",
+    "@wordpress/components": "^7.2.0",
+    "@wordpress/edit-post": "^3.3.0",
+    "@wordpress/editor": "^9.2.0",
+    "@wordpress/element": "^2.3.0",
+    "autoprefixer": "^9.5.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
